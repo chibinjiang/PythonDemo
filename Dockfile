@@ -1,0 +1,43 @@
+FROM ubuntu:bionic
+ENV PYTHON_VERSION 3.8.12
+
+RUN set -ex; \
+	apt-get update; \
+	apt install -y --no-install-recommends \
+	    vim \
+	    telnet \
+	    wget \
+        build-essential \
+        zlib1g-dev \
+        libncurses5-dev \
+        libgdbm-dev \
+        libnss3-dev \
+        libssl-dev \
+        libreadline-dev \
+        libffi-dev \
+        python3.8 \
+		\
+		$( \
+			if apt-cache show 'default-libmysqlclient-dev' 2>/dev/null | grep -q '^Version:'; then \
+				echo 'default-libmysqlclient-dev'; \
+			else \
+				echo 'libmysqlclient-dev'; \
+			fi \
+		) \
+	; \
+	rm -rf /var/lib/apt/lists/*
+
+wget -O python.tar.xz "https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz";
+tar --extract --directory /usr/src/python --strip-components=1 --file python.tar.xz;
+rm python.tar.xz;
+mkdir -p /usr/src/python;
+cd /usr/src/python;
+./configure --enable-loadable-sqlite-extensions --enable-optimizations --enable-option-checking=fatal --enable-shared --with-system-expat --with-system-ffi --without-ensurepip;
+make install;
+cd /;
+python --version
+rm -rf /usr/src/python;
+wget -O get-pip.py https://github.com/pypa/get-pip/raw/2caf84b14febcda8077e59e9b8a6ef9a680aa392/public/get-pip.py;
+python get-pip.py --disable-pip-version-check --no-cache-dir --no-compile;
+rm -f get-pip.py;
+pip --version;
