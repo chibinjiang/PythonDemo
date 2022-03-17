@@ -1,0 +1,578 @@
+第42卷第1期/2022年工月/光学学报
+
+ 
+
+高温目标短波红外光谱辐射亮度方向效应研究
+
+彰军， 浅插，  戎立盏 ，  孙 站也涵， 证衬
+
+吉林大学地球探测科学与技术学院, 吉林 长春 130026
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+摘要 为探究高温目标短波红外波段(1300一2500 nm)光谱辐射亮度是和否具有方向效应,及光谱辐射亮度与辐射
+天顶角的关系,以 500 石墨与金属板(304 直亿网 吉日慰设计了 暗室条件下高温目标 0一70 "辐射天项角
+光谱辐射亮度测量实验。利用方差分析研究短波红外波段辐射亮度是否具有方向效应,采用最小二乘法,对高温
+目标的方向光谱辐射亮度进行拟合 ,进而探究其变化规律。实验结果显示:在显著性水平 <=0. 01 的条件下 ,石墨
+板与金属板在不同辆射天项角的光谱辐射亮度均存在显著差异;采用最小二乘法,使用指数冰数对高温目标的方
+向光谱辐射亮度进行拟合,拟合精度均大于 0. 95。研究表明 :金属板较石墨板具有更显著的方向效应;石墨光谱辐
+射亮度方向效应不随波长的变化而变化,金属板光谱辐射亮度方向效应受波长的影响;两种材质的方向光谱辐射
+亮度与辆射天顶角(0"一70")均呈指数关系。
+
+关键词 ”光谱学; 短波红外; 光谱辐射亮度; 高温目标; 方向效应; 方差分析
+
+中图分类号”0O433      文献标志码 和A                             doi: 10.3788/AOS202242.0130001
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Directlional Effect of Shortwave Infrared Spectroscopy Radiation of
+High-Temperature Target
+
+Cao Yu，Pan Jun，Jiang Lijun ，Sun Yehan，Bian Yutao
+CoLlege o太GeoexDloyratio7m Scielce QQ Tec1201ogy，J2122 LOe7sz2ty ，C1aygc1202 ，-J1202 130026，C72z720
+
+Abstract This paper explores whether the spectral radiance of high-temperature targets in the Shortwave infrared
+band (1300-2500 nm) has a directional effect and the relationship between the Spectral radiance and the radiation
+Zenith angle，Using 500 人 graphite and metal (304 Stainless Steel) plates as the high-temperature targets，this
+paper designs an experiment of spectral radiance measurement with 0 -70”radiation zenith angles of the hightemperature targets in a dark room. The variance analysis is applied to study whether the radiance in the Shortwave
+infrared band gives a directional effect，and the least squares method is adopted to fit the directional spectral radiance
+of the high-temperature targets and thereby explore its variation rules. The experimental results show that under the
+condition of Significance level xc 一0. 01，the spectral radiance at different radiation zenith angles is significantly
+different for both the graphite plates and the metal plates， JIn light of the least sdquares method，the exponential
+function is used to fit the directional spectral radiance of the high-temperature targets，and the fitting accuracy 1S
+greater than 0.95. The results demonstrate that the metal plate has a more prominent directional effect than the
+graphite plate. The directional efftect of the Spectral radiance of the metal plate ls affected by wavelength whereas
+that of graphite ls not， The directional Spectral radiance of both the two matetrials has an exponential relationship
+with the radiation zenith angle (0 -70 ).
+
+玫ey words spectroscopy; Shortwave infrared; Spectral radiance; high-temperature target; directional effect;
+
+variance analysis
+
+ 
+
+收稿日期: 2021-05-17; 修回日期: 2021-06-18; 录用日期 2021-07-15
+通信作者:*20993059@qq. com
+
+0130001-1
+第42卷第1工期/2022 年 1 月/光学学报
+
+ 
+
+1 引 言
+
+高温目标(500 K 以上)是指温度显车高于背温
+的各类地物,包括自燃煤层、.林火、.草原火油井火炬
+等,高温目标识别及温度反演方法研究对遥感资源
+调查 .环境监测 .灾害预警等具有重要的理论意义和
+实用价值 。已有研究结果表明 ,对于高温目标,基
+于短波红外数据可实现良好的温度反演效果一” 。
+受到地物空间结构 `热特性,以及复杂的空间分布的
+影响 ,传感器在不同观测视场和辐射天顶角测得的
+辐射亮度存在明显的方向效应汪 ,因此辐射亮度方
+向效应是制约温度反演精度的重要参数”。高温目
+标在短波红外波段方向的光谱辐射亮度与重射天项
+角的关系及其变化规律成为有竺于深入研究的科学
+问题。
+
+国内外学者在热红外波段探究了辐射天项角与
+热辐射方向效应的关系。在热辐射方向效应的实验
+观测(主要包括野外观测和室内实验)方面,Kimes
+等"5通过对植被土壤、农作物、城市建筑物等进
+行野外观测 ,证明地物热辐射方向效应的存在且其
+受混合像元及天气状况的影响。Labed 等光2汪通过
+室内实验证明热辐射方向效应与目标物的光学特
+性、晶粒尺十.粗糙度和和孔阶度有关,且取决于像元
+组分和像元结构的温差。学者们在确定了热辐射在
+热红外波段存在方向效应的基础上,展开了热辐射
+方回效应建模研究, 目前研究模型主要包括几何光
+学模型、辆射传输模型.几何光学-辐射传输混合模
+型和计算机模拟模型。Li 等祁在考虑同温下多次
+散射的基础上提出了 LSF(Li-Strahle-Friedl) 概念
+模型。王锦地等天 根据影响非同温像元热辐射方
+向效应的主要因素建立了线性方向辐射模型。净广
+建等守5 以已有模型为基础进行改进,改进后的模
+型能较好地拟合农作物 ,城市,以及植被的热辐射方
+向效应的变化情况。目前进行的辐射亮度方向效应
+研究仅局限于热红外波段和稼温地物,其是否适用
+于短波红外波段和高温地物还有待验证。
+
+因此本文在短波红外波段对高温目标方向的光
+谱辐射亮度及其规律进行研究。石墨材料具有了耐高
+温、导电导热能力强、化学性质稳定等特性,可以保
+证石墨在较高温条件下仍保持较为稳定的化学性
+质;金属材料具有耐高温、不易变形等特性, 是城市
+建筑中的主要材料。为探究不同材料光谱辆射亮度
+的方向效应 ,选择石墨和金属板等常见材料作为小
+面元高温目标,使用光谱仪从不同辐射天项角测量
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+高温目标纯像元方向的光谱辆射亮度,并利用方差
+分析探究高温目标的光谱辐射亮度方向效应。采用
+光谱辐射亮度比探究高温目标是否存在光谱辐射亮
+度方向效应 .不同材质的高温目标各波段光谱辐射
+亮度是否具有不同的方向效应,以及高温目标光谱
+辐射亮度与辆射天顶角的关系。高温目标光谱辐射
+亮度方回效应研究对于提高小面元高温目标反演精
+度 .提高遥感定量化水平具有重要意义,丰富了石墨
+与金属的光谱辐射亮度数据库,并为石墨与金属的
+辐射测温技术提供了数据文持。
+
+2 多角度观测实验原理与方法
+
+为探究高温目标在短波红外波段范围内是否存
+在辐射亮度方癌效应,及方回光详辐射亮度与辐射
+天顶角的关系,首先基于地物辆射原理,推导光谱仪
+辐射亮度谈数与高温目标方回光谱辐射亮度的关
+系;然后根据辐射亮度测量方法,设计高温目标方回
+的光谱辐射亮度观测实验以及数据处理方法。
+2.1 基本原理
+
+辐射亮度被定义为面辐射源在单位投影面积
+上 .单位立体角内的辐射通量(图 1)。
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+图 1 辆射亮度示意图
+
+Fig. 1 Schematic diagram of radiance
+
+ 
+
+ 
+
+方向辐射亮度可表示为
+
+A人“4
+Lo一AS     (])
+式中:0 为辐射天项角;Ayo 为高温目标在0 方向上
+的发射簿射通量;ASv, 为高温目标在光谱仪视场范
+围内在生直于观测方向0 的投影面积;AD， 为高温
+目标在观测方向2 的投影面上对光谱仪镜头所张立
+
+体角。
+黑体的辐射亮度可根据普朗克公式计算:
+27c7
+
+)5[exp(CPnc/RTD) 一1
+式中:4) 为波长;T 为目标温度(KK);风是普朋克稼
+
+ 
+
+ 
+
+ 
+
+0130001-2
+第42卷第1期/2022年工月/光学学报
+
+ 
+
+高温目标短波红外光谱辐射亮度方向效应研究
+
+彰军， 浅插，  戎立盏 ，  孙 站也涵， 证衬
+
+吉林大学地球探测科学与技术学院, 吉林 长春 130026
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+摘要 为探究高温目标短波红外波段(1300一2500 nm)光谱辐射亮度是和否具有方向效应,及光谱辐射亮度与辐射
+天顶角的关系,以 500 石墨与金属板(304 直亿网 吉日慰设计了 暗室条件下高温目标 0一70 "辐射天项角
+光谱辐射亮度测量实验。利用方差分析研究短波红外波段辐射亮度是否具有方向效应,采用最小二乘法,对高温
+目标的方向光谱辐射亮度进行拟合 ,进而探究其变化规律。实验结果显示:在显著性水平 <=0. 01 的条件下 ,石墨
+板与金属板在不同辆射天项角的光谱辐射亮度均存在显著差异;采用最小二乘法,使用指数冰数对高温目标的方
+向光谱辐射亮度进行拟合,拟合精度均大于 0. 95。研究表明 :金属板较石墨板具有更显著的方向效应;石墨光谱辐
+射亮度方向效应不随波长的变化而变化,金属板光谱辐射亮度方向效应受波长的影响;两种材质的方向光谱辐射
+亮度与辆射天顶角(0"一70")均呈指数关系。
+
+关键词 ”光谱学; 短波红外; 光谱辐射亮度; 高温目标; 方向效应; 方差分析
+
+中图分类号”0O433      文献标志码 和A                             doi: 10.3788/AOS202242.0130001
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Directlional Effect of Shortwave Infrared Spectroscopy Radiation of
+High-Temperature Target
+
+Cao Yu，Pan Jun，Jiang Lijun ，Sun Yehan，Bian Yutao
+CoLlege o太GeoexDloyratio7m Scielce QQ Tec1201ogy，J2122 LOe7sz2ty ，C1aygc1202 ，-J1202 130026，C72z720
+
+Abstract This paper explores whether the spectral radiance of high-temperature targets in the Shortwave infrared
+band (1300-2500 nm) has a directional effect and the relationship between the Spectral radiance and the radiation
+Zenith angle，Using 500 人 graphite and metal (304 Stainless Steel) plates as the high-temperature targets，this
+paper designs an experiment of spectral radiance measurement with 0 -70”radiation zenith angles of the hightemperature targets in a dark room. The variance analysis is applied to study whether the radiance in the Shortwave
+infrared band gives a directional effect，and the least squares method is adopted to fit the directional spectral radiance
+of the high-temperature targets and thereby explore its variation rules. The experimental results show that under the
+condition of Significance level xc 一0. 01，the spectral radiance at different radiation zenith angles is significantly
+different for both the graphite plates and the metal plates， JIn light of the least sdquares method，the exponential
+function is used to fit the directional spectral radiance of the high-temperature targets，and the fitting accuracy 1S
+greater than 0.95. The results demonstrate that the metal plate has a more prominent directional effect than the
+graphite plate. The directional efftect of the Spectral radiance of the metal plate ls affected by wavelength whereas
+that of graphite ls not， The directional Spectral radiance of both the two matetrials has an exponential relationship
+with the radiation zenith angle (0 -70 ).
+
+玫ey words spectroscopy; Shortwave infrared; Spectral radiance; high-temperature target; directional effect;
+
+variance analysis
+
+ 
+
+收稿日期: 2021-05-17; 修回日期: 2021-06-18; 录用日期 2021-07-15
+通信作者:*20993059@qq. com
+
+0130001-1
+第42卷第1期/2022年工月/光学学报
+
+ 
+
+基于光频域反射仪的光纤分布式三维形状传感技术
+殊国小1.2， 徐州 ，范够1，邓明1.2，末涛1字
+
+Rn 重庆 400044;
+ 重庆大学煤矿灾害动力学与控制国家重点实验室, 重庆 400044
+
+ 
+
+ 
+
+摘要 ”光纤形状传感技术能够测量姿态.取癌 、.径迹以及位置等三维空间信息,在精准介入医疗`.变体飞行句以及
+连续体机需人等领域具有广泛应用前景。光频域反射仪具有高空间分辨率和分布式测量等特点,相较于光纤光栅
+的波分复用技术 ,在提高形状传感空间分辨率,形状重构精度以及传感长度等方面具有明显优势。在阐明光频域
+
+反射仪分布式应变传感原理的基础上,建立了弯曲形变与应变以及光纤瑞利散射光谱波长漂移之间的物理关系，
+同时构建了弯曲大小.弯曲方向以及挠率与空间曲线局域标架三个正交分量的数学关系,最后采用切向分量的线
+积分实现光纤三维形状重构。实验设计并制备了一种基于镍铬形状记忆合金丝与三根光纤束封装的形状传感器，
+
+其二维 .三维形状未端的平均最大误差为传感硕总长度的0.58%和 3. 452%。
+
+关键词 ”光纤传感: 分布式形状传感;: 光频域反射仪
+
+中图分类号 TN29   文献标志码 人A              doi: 10.3788/AOS202242.0106002
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+OUOptical Fliber Distributed Three-dimensional Shape Sensing Technologyy
+Based on Optical Frequency-Domalin Reflectometer
+
+Yin Guolu…，Xu Zhou ，Jiang Ru ，Deng Ming……，Zhu Tao
+Key Laborautory o Optoelectyromic Tec1zology& Systems (C1orzzggi2g Lioeysity) ，Mi2ist7y Oo太Elwcatiom ，
+CHo7ggz220 400044，CH2z72a ;
+“State Key Laboyratory o Coal Mi7e Disaster Dzyaama2ics aq Comtyrol ，C1omzgaizg LI2ioeysitzy，
+C1o70927209 400044，CH22w
+
+Abstract Optical fiber shape sensing technology can measure three-dimensional spatial information Such as attitude，
+orientation，track，and position. It has broad application prospects in ptrecision interventional medicine，variant
+aifrcraft，and continuum robots，T工he optical frequency-domain teflectometer features high spatial resolution and
+distributed measurement. Compared with the wavelength-division multiplexing technology of fiber gratings，it has
+distinct advantages in Improving the spatial resolution of shape sensing，the accuracy of shape treconstruction，and
+the sensing length. In this paper，the physical relationships of bending deformation with strain and wavelength shift
+of the Rayleigh _ scattering Spectra of the optical fibers were established after the principle of distributed Strain
+sensing of the optical frequency-domain reflectometer was expounded.， The mathematical relationships of the
+bending size，bending direction，and torsion with the three orthogonal components of the spatial curve local frame
+werte determined. Finalljy，the three-dimensional shape reconstruction of the optical fibers was achieved via the line
+integral of the tangential component. A shape sensor based on the NEFCT shape memory alloy wire and encapsulated
+by three optical fiber bundjles was designed and prepared in experiments. The average maximum errors of the twordimensional and three-dimensional shape ends are 0.58% and 3.45% of the total length of the sensor，respectively.
+
+Key words optical fiber sensing; distributed shape sensing; optical frequency-domain reflectometer
+
+ 
+
+收稿日期: 2021-06-02; 修回日期: 2021-07-07; 录用日期: 2021-07-19
+
+基金项目: 国家自然科学基金(61975022) .国家自然科学基金杰出青年基金(61825501) .重庆市自然科学基金创新研究
+群体科学基金(cstc2020jcyj-cxttX0005) .重庆市英才青年拔尖人才基金(CQYC202005011)
+
+通信作者: *zhutao(Ocqu. edu. cn
+
+ 
+
+0106002-1
