@@ -1,0 +1,8 @@
+groups:
+  - name: counter_demo
+    rules:
+      - alert: CounterAnomaly
+        expr: counter_demo > 0
+        labels:
+          from: pushgateway
+          severity: critical

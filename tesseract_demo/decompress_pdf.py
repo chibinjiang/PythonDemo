@@ -16,5 +16,3 @@ for s in re.findall(stream, pdf)[-2:]:
         content += zlib.decompress(s)  # .decode('utf8', errors='ignore')
     except Exception:
         traceback.print_exc()
-
-import ipdb; ipdb.set_trace()
